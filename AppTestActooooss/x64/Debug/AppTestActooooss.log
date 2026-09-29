@@ -1,0 +1,14 @@
+﻿  AppTestActooooss.cpp
+  Thread.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,35): error C2248: 'Logger::Logger' : impossible d'accéder à private membre déclaré(e) dans la classe 'Logger'
+  (compiler le fichier source 'Thread.cpp')
+      C:\Users\G702306\Desktop\applicationSagemmmmm\appCppOctu\AppTestActooooss\AppTestActooooss\Thread.cpp(34,5):
+      voir la déclaration de 'Logger::Logger'
+      C:\Users\G702306\Desktop\applicationSagemmmmm\appCppOctu\AppTestActooooss\AppTestActooooss\Thread.cpp(21,7):
+      voir la déclaration de 'Logger'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,35):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Users\G702306\Desktop\applicationSagemmmmm\appCppOctu\AppTestActooooss\AppTestActooooss\Thread.cpp(45,26):
+          voir la référence à l'instanciation de la fonction modèle 'std::unique_ptr<Logger,std::default_delete<Logger>> std::make_unique<Logger,,0>(void)' en cours de compilation
+  
+  Génération de code en cours...
